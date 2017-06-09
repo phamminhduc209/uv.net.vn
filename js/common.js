@@ -7,7 +7,7 @@
 
   $(".sidebar-toggle").click(function() {
     /* Act on the event */
-    $("body").toggleClass("sidebar-collapse");
+    $("body").toggleClass("sidebar-collapse sidebar-mini");
   });
 
 
