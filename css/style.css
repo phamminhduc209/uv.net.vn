@@ -390,11 +390,11 @@ img {
     display: block;
     position: relative;
     border-left: 3px solid transparent;
+    font-weight: 700;
 }
 .sidebar-menu>li:hover>a, .sidebar-menu>li.active>a {
     color: #000;
     background: #f4f4f5;
-    font-weight: 700;
 }
 .sidebar-menu>li>a>.fa, .sidebar-menu>li>a>.glyphicon, .sidebar-menu>li>a>.ion {
     width: 20px;
