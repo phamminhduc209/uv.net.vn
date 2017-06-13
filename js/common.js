@@ -8,18 +8,18 @@
 		$("body").toggleClass("sidebar-collapse sidebar-mini");
 	});
 
-	// $('.block-sidebar .list-category li.has-child a').click(function () {
-	// 	$(this).next().slideToggle();
-	// 	$(this).parent().toggleClass('open');
-	// 	return false;
-	// });
-
-	// 	$(".sidebar-menu").addClass("tree");
-	// 	// $(".active.treeview").addClass("menu-open");
-	// 	$(".treeview a").click(function(){
-	// 		$(this).next().slideToggle();
-	// 		$(this).parent().toggleClass("menu-open");
-	// 	});
-	// });
+	//button menu when reponsive
+	$("#search > button").click(function() {
+		$(".form-select").toggle(500);
+	});
+	$(window).resize(function() {
+		var win = $(this);
+		//alert(win.width());
+		if (win.width() >= 767) {
+			$(".form-select").show();
+		} else {
+			$(".form-select").hide();
+		}
+	});
 
 })(jQuery); // End of use strict
