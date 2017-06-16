@@ -464,7 +464,11 @@ img {
 .treeview-menu>li>a>.fa, .treeview-menu>li>a>.glyphicon, .treeview-menu>li>a>.ion {
     width: 20px;
 }
-.sidebar-menu .treeview-menu>li.active>a, .sidebar-menu .treeview-menu>li>a:hover {
+.sidebar-menu .treeview-menu>li>a:hover {
+    color: #333;
+    font-weight: bold;
+}
+.sidebar-menu .treeview-menu>li.active>a {
     color: #333;
     font-weight: bold;
     background: #ffe6e6;
@@ -478,6 +482,36 @@ img {
 .sidebar-menu li a span img {
     max-width: 30px;
     max-height: 30px;
+}
+
+/*===== Not Found =====*/
+.notFound {
+    position: fixed;
+    bottom: 90px;
+    right: 0;
+    background: rgba(84, 167, 191, 0.83);
+    color: #fff;
+    font-size: 15px;
+    padding: 25px 20px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+    transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+.notFound:hover {
+    background: #54A7BF;
+    -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+    transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+.notFound p i {
+    margin-right: 20px;
+    font-size: 26px;
+    vertical-align: middle;
 }
 
 /*===== Content Wrapper =====*/
