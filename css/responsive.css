@@ -19,7 +19,7 @@
 	.sidebar-collapse .main-header .navbar {
 	    margin-left: 50px;
 	}
-	#search {
+	#search_icon {
 	    display: none;
 	}
 	.form-select {
@@ -68,24 +68,24 @@
 	.main-header .navbar {
 	    margin: 0;
 	}
-	#search {
+	#search_icon {
 	    display: block;
 	    top: 54px;
 	    right: 5px !important;
 	    z-index: 1001;
 	    position: absolute;
 	}
-	#search .btn {
+	#search_icon .btn {
 	    border-radius: 100%;
 	    width: 40px;
 	    height: 40px;
 	}
-	#search .btn-primary {
+	#search_icon .btn-primary {
 	    background: #41adff;
 	    border: none;
 	    outline: none;
 	}
-	#search .btn-primary span {
+	#search_icon .btn-primary span {
 	    font-size: 15px;
 	}
 	.form-select {

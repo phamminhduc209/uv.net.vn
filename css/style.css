@@ -144,7 +144,7 @@ img {
 .main-header .logo .logo-lg {
     display: block;
 }
-#search {
+#search_icon {
     position: absolute;
 }
 /* Menu */
@@ -494,8 +494,18 @@ img {
     background-color: #ecf0f5;
     z-index: 800;
 }
+.treeview-border li a {
+    border-left-style: solid;
+    border-left-width: 7px;
+    padding: 10px !important;
+}
 
 /*===== Map =====*/
+#map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 .mymap {
     width: 100%;
     height: 100%;
@@ -598,4 +608,5 @@ img {
     padding: 15px;
     color: #444;
     border-top: 1px solid #d2d6de;
+    position: relative;
 }

@@ -9,7 +9,7 @@
 	});
 
 	//button menu when reponsive
-	$("#search > button").click(function() {
+	$("#search_icon > button").click(function() {
 		$(".form-select").toggle(500);
 	});
 	$(window).resize(function() {
