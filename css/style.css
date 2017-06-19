@@ -471,7 +471,18 @@ img {
 .sidebar-menu .treeview-menu>li.active>a {
     color: #333;
     font-weight: bold;
-    background: #ffe6e6;
+}
+.sidebar-menu .treeview-menu>li.active>a:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    color: #03599a;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
 }
 .sidebar-menu>li>a {
     border-left: 3px solid transparent;
