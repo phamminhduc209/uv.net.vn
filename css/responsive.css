@@ -96,7 +96,7 @@
 	    position: absolute;
 	}
 	.main-sidebar, .left-side {
-	    padding-top: 100px;
+	    padding-top: 50px;
 	}
 	.main-sidebar, .left-side {
 	    -webkit-transform: translate(-230px, 0);
